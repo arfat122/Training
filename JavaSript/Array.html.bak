@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Functions</title>
+	<script>
+		var array=["Honda","Toyota","Mercedes","BMW"];
+		document.write(array+"<br><br>");
+		document.write("Reversed array: <br>"+array.reverse()+"<br><br>");
+		document.write("Array length: <br>"+array.length+"<br><br>");
+		document.write("Poped Element: <br>"+array.pop()+"<br><br>");
+		document.write("Pushed Element: <br>"+array.push("AUDI")+"<br><br>");
+		document.write("Shift:<br>"+array.shift()+"<br><br>");
+		document.write("Unshift:<br>"+array.unshift()+"<br><br>");
+		
+	</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>DOM!!!</title>
+</head>
+<script>
+function myfunction()
+{
+	var tag=document.createElement("h1");
+	var txt=document.createTextNode("Finished Loading...");
+	tag.appendChild(txt);
+	var element = document.getElementById("new");
+    element.appendChild(tag);
+}
+function btn()
+{
+	alert("Clicked on button");
+}
+</script>
+<body onload="myfunction()">
+<div id="new">
+</div>
+<button onclick="btn()">Button</button>
+
+</body>
+</html>

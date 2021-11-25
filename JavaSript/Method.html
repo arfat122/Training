@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+	function emp(id,name,salary)
+	{
+	this.id=id;
+	this.name=name;
+	this.salary=salary;
+	this.changeSal=changeSal;
+	function changeSal(Sal2)
+	{
+	this.salary=Sal2;
+	}
+	}
+	var e= new emp(2,"Sharukh",40000);
+	document.write(e.id +"<br> "+e.name+"<br> "+e.salary)
+	e.changeSal(100000);
+	document.write("<br>"+e.id +"<br> "+e.name+"<br> "+e.salary)
+
+</script>
+<body>
+</body>
+</html>

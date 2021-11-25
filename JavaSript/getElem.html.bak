@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Functions</title>
+	<script type="text/javascript">
+		Function myfunction()
+		{
+			Document.getElementById("demo").innerHTML="Paragraph changed";
+		}
+		myfunction();
+		
+	</script>
+</head>
+<body>
+<p id="demo">Welcome</p>
+</body>
+<html>

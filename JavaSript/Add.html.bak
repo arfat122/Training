@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Functions</title>
+	<script type="text/javascript">
+		Function myfunction(a,b)
+		{
+			return a+b;
+		}
+		var a=prompt("Enter No.1: ");
+		var b=prompt("Enter No.2:");
+		myfunction(a,b);
+		
+		
+	</script>
+</head>
+<body>
+<p id="demo">Welcome</p>
+</body>
+<html>

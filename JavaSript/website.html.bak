@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>Website</title>
+</head>
+<script>
+</script>
+<body>
+<nav>
+	<li>Fruits</li>
+</nav>
+<a href="#myform"><img src="C:\Users\Arfat Shaikh\Downloads\Apple.jpg" width="250" height="250" alt="Apple"></img>
+<img src="C:\Users\Arfat Shaikh\Downloads\Pineapple.jpg" width="250" height="250" alt="Pineapple"></img>
+<img src="C:\Users\Arfat Shaikh\Downloads\Melon.jpg" width="250" height="250" alt="Melon"></img>
+<img src="C:\Users\Arfat Shaikh\Downloads\Strawberry.jpg" width="250" height="250" alt="Strawberry"></img>
+<img src="C:\Users\Arfat Shaikh\Downloads\Orange.jpg" width="250" height="250" alt="Orange"></img></a>
+
+<form name="myform">
+	 <label>Name:</label>
+	<input type="text" id="1" name="Name"></input><br><br>
+	<label>Mobile no.</label>
+	<input type="text" id="2" name="empID"></input><br><br>
+	<label>Address:</label>
+	<input type="text" id="3"></input><br><br>
+	<label>Quantity:</label>
+	<input type="text" id="4" name="Phone">KG</input><br><br>
+	<button>Submit</button>
+</form>
+
+</body>
+
+</html>
+	

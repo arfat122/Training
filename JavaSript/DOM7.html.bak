@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validate()
+		{
+			if(document.myform.Name.value=="")
+			{
+				alert("Please enter the name");
+				document.myform.Name.focus();
+				return false;
+			}
+			if(document.myform.empID.value=="")
+			{
+				alert("Please enter employee ID");
+				document.myform.empID.focus();
+				return false;
+			}
+			var a=/^\d{10}$/;
+			if(document.myform.Phone.value.match(a))
+			{
+				return true;
+			}
+			else
+			{
+				alert("Please Enter the 10 digit Phone no.");
+				return false;
+			}
+			
+			
+		}
+		
+		   
+		   
+    </script>
+</head>
+<body>
+<form name="myform" onsubmit="return(validate());">
+    <label>Name:</label>
+	<input type="text" id="1" name="Name"></input><br><br>
+	<label>empID</label>
+	<input type="text" id="2" name="empID"></input><br><br>
+	<label>DOB</label>
+	<input type="text" id="3"></input><br><br>
+	<label>Mobile.No:</label>
+	<input type="text" id="4" name="Phone"></input><br><br>
+	<label>Address</label>
+	<input type="text" id="5"></input><br><br>
+	<label>Course</label>
+	<input type="radio" id="6" value="B.tech">B.Tech</input>
+	<button>Submit</button><br><br>
+	
+<span id="span">
+
+</span>
+   
+     
+</body>
+</html>

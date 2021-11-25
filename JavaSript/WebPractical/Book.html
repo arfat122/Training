@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>BOOK A STAY</title>
+<style type="text/css">
+	form{
+		text-align:center;
+		width:300px;
+		background:#FC4A1A;
+		margin:auto;
+		border:1px solid #F78733;
+		}
+	body{
+		background-color:#4ABDAC;
+		padding-top:120px;
+		}
+	footer{
+			background-color:#DFDCE3;
+			margin-top:43%;
+			text-align:center;
+		}
+</style>
+<script>
+	function calc()
+	{
+		var a=document.form.night.value;
+		var singleAC=2000;
+		var singleNAC=2500;
+		Extra=500;
+		var result=a*(singleAC+singleNAC);
+		alert("Amount:"+result);
+	}
+</script>
+</head>
+<body>
+<form name="form">
+	<h2 style="text-align:center">BOOK A STAY</h2>
+	<label>No.of Nights<label>
+	<input type="number" name="night" required></input><br><br>
+	<Label>Accomodaton:<label>
+	<Select name="Accom" required>
+		<option value="Null"> </option>
+		<option value="1000">SINGLE</option>
+		<option value="2000">DOUBLE</option>
+	</select><br><br>
+	 <input type="radio" id="html" name="fav_language" value="1000">
+     <label for="html">AC</label>
+     <input type="radio" id="css" name="fav_language" value="0">
+     <label for="css">NON-AC</label><br><br>
+	 <input type="checkbox" id="check" name="check" value="500">
+	 <label for="check">EXTRABED</label><br><br>
+	 <label>Dormitory</label>
+	 <Select name="Dor">
+			<option value="null"> </option>
+			<option value="6000">6 PERSONS</option>
+			<option value="10000">12 PERSONS</option>
+			<option value="20000">20 PERSONS</option>
+	</select><br><br>
+	<button onclick="calc()">Submit</button>
+</form>
+
+<footer>
+	HOTEL E-MAIL:abc.com CONTACT:123456789
+</footer>
+
+</body>
+</html>

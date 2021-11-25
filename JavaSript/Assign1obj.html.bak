@@ -1,0 +1,24 @@
+<html>
+<head>
+<script>
+	function data(Name,empId,DOB,Mob,Add,Course)
+	{
+	this.Name=Name;
+	this.empId=empId;
+	this.DOB=DOB;
+	this.Mob=Mob;
+	this.Course=Course;
+	this.changeAdd=changeAdd;
+	function changeAdd(Add2)
+	{
+	this.Add=Add2;
+	}
+	}
+	var a=new data("Arfat",21260,"08/12/1998",6364240501,"abc","ETG");
+	document.write(a.Name+"<br> "+a.empId+"<br> "+a.DOB+"<br> "+a.Mob+"<br>"+a.Add+"<br> "+a.Course+"<br><br>");
+	a.changeAdd("xyz");
+	document.write("<br>"+a.Name+"<br>"+a.empId+"<br>"+a.DOB+"<br>"+a.Mob+"<bt>"+a.Add+"<br>"+a.Course);
+</script>
+<body>
+</body>
+</html>

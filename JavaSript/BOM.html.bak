@@ -1,0 +1,17 @@
+<html>
+<head>
+	<title>BOM</title>
+</head>
+<script>
+	
+	document.write(navigator.appCodeName+"<br>");
+	document.write(navigator.appName+"<br>");
+	document.write(navigator.appVersion+"<br>");
+	document.write(navigator.appCookieEnabled+"<br>");
+	
+
+</script>
+<body>
+</body>
+
+</hmtl>

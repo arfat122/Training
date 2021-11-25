@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Numbers</title>
+</head>
+<script>
+	function Convert(val)
+	{
+	
+		var val= parseInt(prompt("Enter the number:"));
+		
+		if(document.getElementById("value").value==="Binary");
+			{
+				document.write(val.toString(2));
+			}
+		if(document.getElementById("value").value==="Hexa");
+			{
+				document.write(val.toString(8));
+			}
+		if(document.getElementById("value").value==="Octal");
+			{
+				document.write(val.toString(16));
+			}
+		
+	}		
+</script>
+<body>
+<form>
+	<label>Covert To:</label>
+	<select>
+		<option value="Binary">Binary</option>
+		<option value="Hexa">Hexa</option>
+		<option value="Octal">Octal</option>
+	</select>
+
+	<button onclick="Convert(val)">Submit</button>
+</form>
+</body>
+</html>	

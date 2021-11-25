@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Window</title>
+
+<script>
+	var win=window.open("http://www.google.com");
+	setTimeout(function () { win.close();,3000);
+	
+	
+
+</script>
+</head>
+<body>
+</body>
+
+</hmtl>

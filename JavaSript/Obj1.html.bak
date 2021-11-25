@@ -1,0 +1,12 @@
+<html>
+<head>
+<script>
+	var emp=new Object();
+	emp.id=2;
+	emp.name="Arfat";
+	emp.salary=50000;
+	document.write(emp.id +" "+emp.name+" "+emp.salary)
+</script>
+<body>
+</body>
+</html>

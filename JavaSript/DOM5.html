@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>DOM</title>
+<script>
+	function Convert()
+	{
+		var a=document.getElementById("1").value;
+		var b=a.toUpperCase();
+		document.getElementById("2").value=b;
+	}
+</script>
+</head>
+<body>
+<form>
+	<label>Enter </label>
+	<input type="text" id="1"></input> 
+	<label>Converted </label>
+	<input type="text" id="2" value=""></input>
+	<button onclick="Convert()">Convert</button>
+</form>
+</body>
+</html>

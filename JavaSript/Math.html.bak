@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Math</title>
+	<script>
+	
+		var Num=parseInt(prompt("Enter the number:"));
+		document.write("Square: "+Math.pow(Num,2)+"<br><br>"+"Square root: "+Math.sqrt(Num)+"<br><br>"+Math.abs(Num)
+						+Math.round(Num)+"<br>"+Math.acos(Num)+"<br>"+Math.asin(Num));
+		
+	</script>
+</head>
+<body>
+</body>
+</html>

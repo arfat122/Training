@@ -1,0 +1,15 @@
+select * from dept                   
+
+SELECT DEPTNO,
+	CASE
+		WHEN DNAME='ACCOUNTING'
+			THEN 'ACC'
+		WHEN DNAME='RESEARCH'
+			THEN 'R&S'
+		WHEN DNAME='SALES'
+			THEN 'SAL'
+		WHEN DNAME='OPERATIONS'
+			THEN 'OP'
+	END AS DNAME,
+	LOC         
+FROM DEPT
